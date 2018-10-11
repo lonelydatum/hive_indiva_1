@@ -3,6 +3,9 @@
 @import '../../../_common/styles/common.scss';
 
 
+#learn{
+	@include pos-scale(0, 57, .5);
+}
 
 .frame1 {
 	// opacity: 1;
