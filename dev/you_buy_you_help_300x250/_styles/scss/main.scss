@@ -2,7 +2,9 @@
 
 @import '../../../_common/styles/common.scss';
 
-
+#url{
+	@include pos-scale(-15, 33, .5);
+}
 
 .frame1 {
 	// opacity: 1;

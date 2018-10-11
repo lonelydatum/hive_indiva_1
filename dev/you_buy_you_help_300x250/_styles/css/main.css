@@ -152,6 +152,17 @@ sup {
   image-rendering: -webkit-optimize-contrast;
 }
 
+#url {
+  -webkit-transform: translate(-15px, 33px) scale(0.5, 0.5);
+  -ms-transform: translate(-15px, 33px) scale(0.5, 0.5);
+  transform: translate(-15px, 33px) scale(0.5, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
 #arrow {
   width: 40px;
   height: 100%;
