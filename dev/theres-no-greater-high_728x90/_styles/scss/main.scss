@@ -1,0 +1,41 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	// opacity: 1;
+}
+
+#arrow{
+	width: 30px;
+	height: 100%;
+	@include pos(676, 0);
+	overflow: hidden;
+	// background-color: rgba(255,0,0, .5);
+	img{
+		@include pos-scale(-95, 41, .5);
+	}
+}
+
+#line{
+	width: 124px;
+	height: 100%;
+	@include pos(581, 0);
+	// background-color: rgba(255,0,0, .5);
+	overflow: hidden;
+	img{
+		@include pos-scale(3, 41, .5);
+	}
+}
+
+
+
+#banner{
+	font-size: 20px;
+	background-color: black;
+	width: 728px;
+	height: 90px;
+}
+
