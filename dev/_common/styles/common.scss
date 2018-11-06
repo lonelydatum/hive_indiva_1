@@ -100,3 +100,15 @@ sup{
 	image-rendering: -webkit-optimize-contrast;
 	
 }
+
+#close{
+	top: 0;
+	
+	position: absolute;
+	transform-origin: 0 0;
+	@include pos-scale(214, 0, .5);
+	// border: 1px solid red;
+	cursor: pointer;
+	z-index: 99;
+
+}

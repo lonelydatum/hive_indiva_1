@@ -11,4 +11,11 @@ function start() {
 	tl.from('#line img', .4, {scaleX:0}, '+=0')
 }
 
+
+document.getElementById("close").addEventListener("click", (e)=>{
+	
+	TweenLite.set("#banner", {display:'none'})
+	TweenLite.set("#close", {display:'none'})
+})
+
 export default start
