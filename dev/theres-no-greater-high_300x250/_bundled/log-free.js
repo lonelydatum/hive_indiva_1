@@ -18,10 +18,20 @@ function start() {
 }
 
 var closeButton = document.getElementById("close-320x480");
+var close = document.getElementById("close");
+
 if (closeButton) {
-	closeButton.addEventListener("click", function (e) {
+	doClose(closeButton);
+}
+
+if (close) {
+	doClose(close);
+}
+
+function doClose(btn) {
+	btn.addEventListener("click", function (e) {
 		TweenLite.set("#banner", { display: 'none' });
-		TweenLite.set(closeButton, { display: 'none' });
+		TweenLite.set(btn, { display: 'none' });
 	});
 }
 
