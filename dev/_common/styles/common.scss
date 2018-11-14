@@ -112,3 +112,14 @@ sup{
 	z-index: 99;
 
 }
+
+
+#close-320x480{
+	top: 0;	
+	position: absolute;
+	transform-origin: 0 0;
+	@include pos-scale(0, 0, .5);
+	cursor: pointer;
+	z-index: 99;
+
+}

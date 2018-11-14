@@ -12,10 +12,13 @@ function start() {
 }
 
 
-document.getElementById("close").addEventListener("click", (e)=>{
-	
-	TweenLite.set("#banner", {display:'none'})
-	TweenLite.set("#close", {display:'none'})
-})
+const closeButton = document.getElementById("close-320x480")
+if(closeButton){
+	closeButton.addEventListener("click", (e)=>{	
+		TweenLite.set("#banner", {display:'none'})
+		TweenLite.set(closeButton, {display:'none'})
+	})
+}
+
 
 export default start

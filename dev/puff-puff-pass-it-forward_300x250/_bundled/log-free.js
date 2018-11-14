@@ -17,11 +17,13 @@ function start() {
 	tl.from('#line img', .4, { scaleX: 0 }, '+=0');
 }
 
-document.getElementById("close").addEventListener("click", function (e) {
-
-	TweenLite.set("#banner", { display: 'none' });
-	TweenLite.set("#close", { display: 'none' });
-});
+var closeButton = document.getElementById("close-320x480");
+if (closeButton) {
+	closeButton.addEventListener("click", function (e) {
+		TweenLite.set("#banner", { display: 'none' });
+		TweenLite.set(closeButton, { display: 'none' });
+	});
+}
 
 exports['default'] = start;
 module.exports = exports['default'];
