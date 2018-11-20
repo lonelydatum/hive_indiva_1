@@ -191,9 +191,9 @@ sup {
 #arrow {
   width: 30px;
   height: 100%;
-  -webkit-transform: translate(124px, 76px);
-  -ms-transform: translate(124px, 76px);
-  transform: translate(124px, 76px);
+  -webkit-transform: translate(124px, 5px);
+  -ms-transform: translate(124px, 5px);
+  transform: translate(124px, 5px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -216,9 +216,9 @@ sup {
 #line {
   width: 123px;
   height: 100%;
-  -webkit-transform: translate(31px, 77px);
-  -ms-transform: translate(31px, 77px);
-  transform: translate(31px, 77px);
+  -webkit-transform: translate(31px, 6px);
+  -ms-transform: translate(31px, 6px);
+  transform: translate(31px, 6px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

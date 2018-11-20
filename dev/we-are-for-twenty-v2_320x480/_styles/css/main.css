@@ -188,23 +188,12 @@ sup {
   z-index: 99;
 }
 
-#learn {
-  -webkit-transform: translate(0px, 57px) scale(0.5, 0.5);
-  -ms-transform: translate(0px, 57px) scale(0.5, 0.5);
-  transform: translate(0px, 57px) scale(0.5, 0.5);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
 #arrow {
   width: 30px;
   height: 100%;
-  -webkit-transform: translate(124px, -15px);
-  -ms-transform: translate(124px, -15px);
-  transform: translate(124px, -15px);
+  -webkit-transform: translate(124px, 4px);
+  -ms-transform: translate(124px, 4px);
+  transform: translate(124px, 4px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -227,9 +216,9 @@ sup {
 #line {
   width: 123px;
   height: 100%;
-  -webkit-transform: translate(31px, -14px);
-  -ms-transform: translate(31px, -14px);
-  transform: translate(31px, -14px);
+  -webkit-transform: translate(31px, 5px);
+  -ms-transform: translate(31px, 5px);
+  transform: translate(31px, 5px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
