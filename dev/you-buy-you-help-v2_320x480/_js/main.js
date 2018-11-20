@@ -1,5 +1,26 @@
 TweenLite.defaultEase = Power3.easeInOut
 
+
+const closeButton = document.getElementById("close-320x480")
+const close = document.getElementById("close")
+
+if(closeButton){
+	doClose(closeButton)
+}
+
+if(close){
+	doClose(close)
+}
+
+
+function doClose(btn){
+	btn.addEventListener("click", (e)=>{	
+		TweenLite.set("#banner", {display:'none'})
+		TweenLite.set(btn, {display:'none'})
+	})		
+}
+
+
 function start() {
 	const tl = new TimelineMax()
 	tl.set('.frame1', {opacity:1})

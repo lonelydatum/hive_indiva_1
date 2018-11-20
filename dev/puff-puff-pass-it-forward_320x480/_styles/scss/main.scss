@@ -8,10 +8,12 @@
 	// opacity: 1;
 }
 
+$y: 91;
+
 #arrow{
 	width: 30px;
 	height: 100%;
-	@include pos(124, -15);
+	@include pos(124, -15+$y);
 	
 
 	overflow: hidden;
@@ -23,7 +25,7 @@
 #line{
 	width: 123px;
 	height: 100%;
-	@include pos(31, -14);
+	@include pos(31, -14+$y);
 	// background-color: rgba(255,0,0,.5);
 	// background-color: rgba(255,0,0, .5);
 	overflow: hidden;
